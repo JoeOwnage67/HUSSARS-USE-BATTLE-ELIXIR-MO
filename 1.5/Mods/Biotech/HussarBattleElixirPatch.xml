@@ -2,11 +2,7 @@
 
 
 <Patch>
-    <Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Medieval Overhaul</li>
-		</mods>
-		<match Class="PatchOperationSequence">
+    <Operation Class="PatchOperationSequence">
 			<operations>
 
                 <!-- change Hussar gene to use Battle Elixir -->
