@@ -28,6 +28,14 @@
 							<description>Carriers of this gene need to ingest demon's blood potion on a regular basis to survive. After 10 days without it, carriers will suffer from demon's blood potion deficiency. After 20 days, they will fall into a coma. After 30 days, they will die.</description>			                 
 						</value>	
 					</li>
+
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/GeneDef[defName="VREH_ChemicalDependency_Luciferium"]/label</xpath>
+						<value>
+							<label>demon's blood potion dependency</label>			                 
+						</value>	
+					</li>
+				</operations>
 				</operations>
 			</match>
 	</Operation>
