@@ -21,5 +21,6 @@
         <li>Ludeon.RimWorld.Royalty</li>
         <li>Ludeon.RimWorld.Biotech</li>
         <li>DankPyon.Medieval.Overhaul</li>
+	<li>vanillaracesexpanded.hussar</li>
     </loadAfter>
 </ModMetaData>
