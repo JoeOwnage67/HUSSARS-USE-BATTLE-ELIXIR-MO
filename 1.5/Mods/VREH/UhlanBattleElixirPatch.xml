@@ -1,70 +1,42 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 
-<Patch>
-    <Operation Class="PatchOperationSequence">
-			<operations>
-
+<Patch>   
                 <!-- change Uhlan gene to use Battle Elixir -->
-				<li Class="PatchOperationReplace">
+				<Operation Class="PatchOperationReplace">
 					<xpath>Defs/XenotypeDef[defName="VREH_Uhlan"]/genes</xpath>
 			        <value>
-			                <genes>
-                                <li>Hair_ShortOnly</li>
-                                <li>Body_Standard</li>
-                                <li>Eyes_Red</li>
-                                <li>Body_Hulk</li>
-                                <li>Skin_DeepRed</li>
-                                <li>Skin_PaleRed</li>
-                                <li>WoundHealing_SuperFast</li>
-                                <li>Pain_Reduced</li>
-                                <li>Unstoppable</li>
-                                <li>MaxTemp_SmallIncrease</li>
-                                <li>MinTemp_SmallDecrease</li>
-                                <li>AptitudeRemarkable_Shooting</li>
-                                <li>AptitudeRemarkable_Melee</li>
-                                <li>ToxicEnvironmentResistance_Partial</li>
-                                <li>Aggression_HyperAggressive</li>
-                                <li>AptitudeTerrible_Plants</li>
-                                <li>AptitudeTerrible_Animals</li>
-                                <li>AptitudeTerrible_Social</li>
-                                <li>AptitudeTerrible_Artistic</li>
-                                <li>AddictionImmune_DankPyon_Chemical_BattleElixir</li>
-                                <li>KillThirst</li>
-                                <li>VREH_ChemicalDependency_Luciferium</li>
-                                <li>VREH_Toughness</li>
-                                <li>VREH_Glidewings</li>
-                                <li>VREH_BulletproofSkin</li>
-                                <li>VREH_Giant</li>
-                                <li>VREH_Arrogant</li>
-                                <li>VREH_Unconstrained</li>
-                                <li>VREHT_WeaponAptitude_Randomizer</li>
-                            </genes>
+			        	<genes>
+                        	<li>Hair_ShortOnly</li>
+                            <li>Body_Standard</li>
+                            <li>Eyes_Red</li>
+                            <li>Body_Hulk</li>
+                            <li>Skin_DeepRed</li>
+                            <li>Skin_PaleRed</li>
+                            <li>WoundHealing_SuperFast</li>
+                            <li>Pain_Reduced</li>
+                            <li>Unstoppable</li>
+                            <li>MaxTemp_SmallIncrease</li>
+                            <li>MinTemp_SmallDecrease</li>
+                            <li>AptitudeRemarkable_Shooting</li>
+                            <li>AptitudeRemarkable_Melee</li>
+                            <li>ToxicEnvironmentResistance_Partial</li>
+                            <li>Aggression_HyperAggressive</li>
+                            <li>AptitudeTerrible_Plants</li>
+                            <li>AptitudeTerrible_Animals</li>
+                            <li>AptitudeTerrible_Social</li>
+                            <li>AptitudeTerrible_Artistic</li>
+                            <li>AddictionImmune_DankPyon_Chemical_BattleElixir</li>
+                            <li>KillThirst</li>
+                            <li>VREH_ChemicalDependency_Luciferium</li>
+                            <li>VREH_Toughness</li>
+                            <li>VREH_Glidewings</li>
+                            <li>VREH_BulletproofSkin</li>
+                            <li>VREH_Giant</li>
+                            <li>VREH_Arrogant</li>
+                            <li>VREH_Unconstrained</li>
+                            <li>VREHT_WeaponAptitude_Randomizer</li>
+                        </genes>
 			        </value>	
-				</li>
-
-                <!-- change VREH_Uhlan description -->
-                <li Class="PatchOperationReplace">
-					<xpath>Defs/XenotypeDef[defName="VREH_Uhlan"]/description</xpath>
-			        <value>
-			                <description>Uhlans are a side-development from captured hussars, turned by certain elements to become a counter to the empire-trained hussar program. Their genetic dependence on demon's blood potion is both a deterrent against capturing and an improvement to long-term usefulness.\n\nAppropriately named demons for their permanently flushed skin and intense bloodthirst, uhlans are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.\n\nExtremely specialized and on a permanent hair-trigger, there has been much speculation that their training was sponsored by deserters as part of the latest rebellion. No substantial evidence has been presented to support these claims.</description>
-                    </value>	
-				</li>
-                <li Class="PatchOperationReplace">
-					<xpath>Defs/XenotypeDef[defName="VREH_Uhlan"]/descriptionShort</xpath>
-			        <value>
-			                 <descriptionShort>Uhlans are a side-development from captured hussars, who fight aggressively and without emotion. They heal extremely fast, glide through obstacles using their small wings, and freely ingest demon's blood potion to keep their bodies functioning, to which they have a genetic dependence.</descriptionShort>
-                    </value>	
-				</li>
-
-				<!-- change VREH_ChemicalDependency_Luciferium description -->
-				<li Class="PatchOperationReplace">
-					<xpath>Defs/GeneDef[defName="VREH_ChemicalDependency_Luciferium"]/description</xpath>
-			        <value>
-						<description>Carriers of this gene need to ingest demon's blood potion on a regular basis to survive. After 10 days without it, carriers will suffer from demon's blood potion deficiency. After 20 days, they will fall into a coma. After 30 days, they will die.</description>			                 
-					</value>	
-				</li>
-            </operations>	
-		
-	</Operation>		
-</Patch>				
+				</Operation>		
+</Patch>			
