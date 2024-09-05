@@ -56,6 +56,14 @@
 			                 <descriptionShort>Uhlans are a side-development from captured hussars, who fight aggressively and without emotion. They heal extremely fast, glide through obstacles using their small wings, and freely ingest demon's blood potion to keep their bodies functioning, to which they have a genetic dependence.</descriptionShort>
                     </value>	
 				</li>
+
+				<!-- change VREH_ChemicalDependency_Luciferium description -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/GeneDef[defName="VREH_ChemicalDependency_Luciferium"]/description</xpath>
+			        <value>
+						<description>Carriers of this gene need to ingest demon's blood potion on a regular basis to survive. After 10 days without it, carriers will suffer from demon's blood potion deficiency. After 20 days, they will fall into a coma. After 30 days, they will die.</description>			                 
+					</value>	
+				</li>
             </operations>	
 		
 	</Operation>		
