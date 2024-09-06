@@ -18,6 +18,10 @@
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 		    <displayName>Biotech</displayName>
 		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+		    <displayName>Vanilla Expanded Framework</displayName>
+		</li>
     </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld</li>
@@ -27,5 +31,6 @@
         <li>DankPyon.Medieval.Overhaul</li>
 		<li>vanillaracesexpanded.hussar</li>
 		<li>BotchJob.medievalfantasyquestrewards</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
     </loadAfter>
 </ModMetaData>
