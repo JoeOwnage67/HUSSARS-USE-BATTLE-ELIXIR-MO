@@ -11,9 +11,13 @@
     <url>https://steamcommunity.com/</url>
     <modDependencies>
         <li>
-          <packageId>DankPyon.Medieval.Overhaul</packageId>
-		  <displayName>Medieval Overhaul</displayName>
+        	<packageId>DankPyon.Medieval.Overhaul</packageId>
+			<displayName>Medieval Overhaul</displayName>
         </li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+		    <displayName>Biotech</displayName>
+		</li>
     </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld</li>
