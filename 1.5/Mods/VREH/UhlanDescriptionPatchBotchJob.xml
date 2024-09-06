@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Patch>
-    <Operation Class="PatchOperationFindMod">
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Races Expanded - Hussar</li>
+		</mods>
+    	<match Class="PatchOperationFindMod">
             <mods>
                 <li>Medieval Fantasy Themed Quest Rewards</li> <!-- BotchJob.medievalfantasyquestrewards-->
             </mods>
@@ -36,6 +40,15 @@
 							<label>demon blood need</label>			                 
 						</value>	
 					</li>
+
+					<!-- change gene texture to botch job texture -->
+					<li Class="PatchOperationReplace">
+						<xpath>Defs/GeneDef[defName="VREH_ChemicalDependency_Luciferium"]/iconPath</xpath>
+						<value>
+							<iconPath>UI/Genes/Luciferium_a</iconPath>		                 
+						</value>	
+					</li>
+					
 				</operations>
 				</operations>
 			</match>
