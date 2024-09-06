@@ -50,6 +50,19 @@
 							<iconPath>UI/Genes/Luciferium_a</iconPath>		                 
 						</value>	
 					</li>
+					
+					<!-- give gene texture a background -->
+					<li Class="PatchOperationAdd">
+						<xpath>Defs/GeneDef[defName="VREH_ChemicalDependency_Luciferium"]</xpath>
+						<value>
+							<modExtensions>
+								<li Class="VanillaGenesExpanded.GeneExtension">
+							    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
+							        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
+							    </li>
+							</modExtensions>		                 
+						</value>	
+					</li>
 
 				</operations>
 			</match>
