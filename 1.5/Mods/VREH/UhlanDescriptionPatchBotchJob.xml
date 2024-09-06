@@ -10,18 +10,20 @@
                 <li>Medieval Fantasy Themed Quest Rewards</li> <!-- BotchJob.medievalfantasyquestrewards-->
             </mods>
             <match Class="PatchOperationSequence">
-                <operations>				
+                <operations>	
+
 					<!-- change VREH_Uhlan description -->
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/XenotypeDef[defName="VREH_Uhlan"]/description</xpath>
 						<value>
-								<description>Uhlans are a side-development from captured hussars, turned by the Deserters to become a counter to the empire-trained hussar program. Their genetic dependence on demon blood is both a deterrent against their capture, as well as an improvement to long-term usefulness.\n\nOften referred to as demons, for their permanently flushed skin and intense bloodthirst, uhlans are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.</description>
+							<description>Uhlans are a side-development from captured hussars, turned by the Deserters to become a counter to the empire-trained hussar program. Their genetic dependence on demon blood is both a deterrent against their capture, as well as an improvement to long-term usefulness.\n\nOften referred to as demons, for their permanently flushed skin and intense bloodthirst, uhlans are incredibly resilient and specialized in certain styles of combat. Quite often they are decked out in heavy armor, in which they can charge full tilt at their intended target.</description>
 						</value>	
 					</li>
+
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/XenotypeDef[defName="VREH_Uhlan"]/descriptionShort</xpath>
 						<value>
-								<descriptionShort>Uhlans are a side-development from captured hussars, who fight aggressively and without emotion. Their genetic dependence on demon blood is both a deterrent against their capture, as well as an improvement to long-term usefulness.</descriptionShort>
+							<descriptionShort>Uhlans are a side-development from captured hussars, who fight aggressively and without emotion. Their genetic dependence on demon blood is both a deterrent against their capture, as well as an improvement to long-term usefulness.</descriptionShort>
 						</value>	
 					</li>
 
@@ -48,9 +50,9 @@
 							<iconPath>UI/Genes/Luciferium_a</iconPath>		                 
 						</value>	
 					</li>
-					
-				</operations>
+
 				</operations>
 			</match>
+		</match>
 	</Operation>
-</Patch>		
+</Patch>	
