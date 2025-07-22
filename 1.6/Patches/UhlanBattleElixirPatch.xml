@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Races Expanded - Hussar</li>
+		</mods>
+		
+        <!-- change Uhlan gene to use Battle Elixir -->
+        <match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationRemove">
+					<xpath>Defs/XenotypeDef[defName="VREH_Uhlan"]/genes/li[.="AddictionImmune_GoJuice"]</xpath>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/XenotypeDef[defName="VREH_Uhlan"]/genes</xpath>
+					<value>
+						<li>AddictionImmune_DankPyon_Chemical_BattleElixir</li>
+					</value>
+				</li>
+			</operations>
+        </match>
+	</Operation>		
+</Patch>			
