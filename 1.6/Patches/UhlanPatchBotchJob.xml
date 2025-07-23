@@ -52,11 +52,11 @@
 					</li>
 					
 					<!-- give gene texture a background -->
-					<li MayRequire="sarg.alphagenes" Class="PatchOperationAdd">
+					<li MayRequire="OskarPotocki.VanillaFactionsExpanded.Core" Class="PatchOperationAdd">
 						<xpath>Defs/GeneDef[defName="VREH_ChemicalDependency_Luciferium"]</xpath>
 						<value>
 							<modExtensions>
-								<li Class="VanillaGenesExpanded.GeneExtension">
+								<li Class="VEF.Genes.GeneExtension">
 							    	<backgroundPathEndogenes>UI/Genes/Endogene</backgroundPathEndogenes>
 							        <backgroundPathXenogenes>UI/Genes/Xenogene</backgroundPathXenogenes>
 							    </li>
